@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "RollerBall Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Test",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Test",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall Linux Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Test",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Shipping",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Shipping",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall Linux Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall Linux Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"Linux",
+				"Shipping",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall LinuxArm64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall LinuxArm64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall LinuxArm64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Test",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Test",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall LinuxArm64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Test",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Shipping",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Shipping",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBall LinuxArm64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBall LinuxArm64 Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBall",
+				"LinuxArm64",
+				"Shipping",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBallEditor Linux Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"Debug",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBallEditor Linux DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"DebugGame",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RollerBallEditor Linux Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		},
+		{
+			"label": "RollerBallEditor Linux Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Linux/Build.sh",
+			"args": [
+				"RollerBallEditor",
+				"Linux",
+				"Development",
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+			}
+		}
+	]
+}

@@ -1,0 +1,121 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch RollerBall (Debug)",
+			"request": "launch",
+			"program": "/home/liminal/Documents/Unreal Projects/RollerBall/Binaries/Linux/UnrealGame-Linux-Debug",
+			"preLaunchTask": "RollerBall Linux Debug Build",
+			"args": [
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch RollerBall (DebugGame)",
+			"request": "launch",
+			"program": "/home/liminal/Documents/Unreal Projects/RollerBall/Binaries/Linux/UnrealGame-Linux-DebugGame",
+			"preLaunchTask": "RollerBall Linux DebugGame Build",
+			"args": [
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch RollerBall (Development)",
+			"request": "launch",
+			"program": "/home/liminal/Documents/Unreal Projects/RollerBall/Binaries/Linux/UnrealGame",
+			"preLaunchTask": "RollerBall Linux Development Build",
+			"args": [
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch RollerBall (Test)",
+			"request": "launch",
+			"program": "/home/liminal/Documents/Unreal Projects/RollerBall/Binaries/Linux/UnrealGame-Linux-Test",
+			"preLaunchTask": "RollerBall Linux Test Build",
+			"args": [
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch RollerBall (Shipping)",
+			"request": "launch",
+			"program": "/home/liminal/Documents/Unreal Projects/RollerBall/Binaries/Linux/UnrealGame-Linux-Shipping",
+			"preLaunchTask": "RollerBall Linux Shipping Build",
+			"args": [
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch RollerBallEditor (Debug)",
+			"request": "launch",
+			"program": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Binaries/Linux/UnrealEditor-Linux-Debug",
+			"preLaunchTask": "RollerBallEditor Linux Debug Build",
+			"args": [
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject"
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch RollerBallEditor (DebugGame)",
+			"request": "launch",
+			"program": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Binaries/Linux/UnrealEditor-Linux-DebugGame",
+			"preLaunchTask": "RollerBallEditor Linux DebugGame Build",
+			"args": [
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject"
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Launch RollerBallEditor (Development)",
+			"request": "launch",
+			"program": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Binaries/Linux/UnrealEditor",
+			"preLaunchTask": "RollerBallEditor Linux Development Build",
+			"args": [
+				"/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject"
+			],
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0",
+			"type": "cppdbg",
+			"visualizerFile": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/VisualStudioDebugging/Unreal.natvis",
+			"showDisplayString": true
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Build/BatchFiles/RunUBT.bat",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=/home/liminal/Documents/Unreal Projects/RollerBall/RollerBall.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "internalConsole",
+			"internalConsoleOptions": "openOnSessionStart",
+			"stopAtEntry": false,
+			"cwd": "/usr/local/bin/Linux_Unreal_Engine_5.2.0"
+		}
+	]
+}

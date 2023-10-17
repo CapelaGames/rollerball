@@ -1,0 +1,30 @@
+{
+	"configurations": [
+		{
+			"name": "RollerBallEditor Editor Linux Development (RollerBall)",
+			"compilerPath": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"compilerArgs": [
+				"-isysroot",
+				"/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu"
+			],
+			"cStandard": "c17",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "clang-x64",
+			"configurationProvider": "epic.ue",
+			"compileCommands": "/home/liminal/Documents/Unreal Projects/RollerBall/.vscode/compileCommands_RollerBall.json"
+		},
+		{
+			"name": "Linux",
+			"compilerPath": "/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu/bin/clang++",
+			"compilerArgs": [
+				"-isysroot",
+				"/usr/local/bin/Linux_Unreal_Engine_5.2.0/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v21_clang-15.0.1-centos7/x86_64-unknown-linux-gnu"
+			],
+			"cStandard": "c17",
+			"cppStandard": "c++17",
+			"intelliSenseMode": "clang-x64",
+			"configurationProvider": "epic.ue",
+			"compileCommands": "/home/liminal/Documents/Unreal Projects/RollerBall/.vscode/compileCommands_Default.json"
+		}
+	]
+}
